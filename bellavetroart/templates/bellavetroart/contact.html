@@ -1,0 +1,12 @@
+{% block content %}
+	
+	<div >
+		{% for contact_us_object in contact_us %}
+			<h2>Contact Us</h2>
+				<p>
+					{{ contact_us_object.text }}
+				</p>
+		{% endfor %}
+	</div>
+
+{% endblock %}
